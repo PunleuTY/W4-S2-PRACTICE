@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        height: 100vh;
+        gap: 1em;
+        display: flex;
+        flex-direction: column;
+      }
+      .header-section {
+        background: #1e90ff;
+        border-radius: 0.5rem;
+        box-shadow: 2px 2px #0077ea;
+        text-align: center;
+        padding: 1rem;
+      }
+      .main-section {
+        border-radius: 0.5rem;
+        display: flex;
+        gap: 1em;
+        flex-grow: 1;
+        text-align: center;
+      }
+      .main {
+        background: #3cb371;
+        border-radius: 0.5rem;
+        flex-grow: 1;
+        box-shadow: 2px 2px #2f8d59;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        gap: 1rem;
+      }
+      .main p {
+        margin: 0;
+        color: white;
+        font-size: 1.5rem;
+      }
+      .grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+      }
+      .items {
+        width: 80px;
+        height: 80px;
+        background: #2f8d59;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.5rem;
+        color: white;
+        box-shadow: 2px 2px #226741;
+      }
+      .sidebar {
+        background: #ff6347;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.5rem;
+        width: 30%;
+        box-shadow: 2px 3px #e02200;
+        justify-content: center;
+        padding: 1rem;
+      }
+      .footer-section {
+        background: #4169e1;
+        border-radius: 0.5rem;
+        box-shadow: 2px 2px #1d44b8;
+        text-align: center;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="header-section">
+        <p>Header</p>
+      </section>
+      <section class="main-section">
+        <div class="main">
+          <p>Main</p>
+          <div class="grid">
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+            <div class="items">item</div>
+          </div>
+        </div>
+        <section class="sidebar">
+          <div><p>SideBar</p></div>
+        </section>
+      </section>
+      <section class="footer-section">
+        <p>Footer</p>
+      </section>
+    </div>
+  </body>
+</html>
